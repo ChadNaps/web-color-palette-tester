@@ -1,0 +1,261 @@
+.theme-light {
+
+/* body */
+--header-color: var(--dark-lightest);
+--header-background: var(--dark-lightest);
+--header-border: var(--dark-lightest);
+--header-boxshadow: var(--dark-lightest);
+--header-textshadow: var(--dark-lightest);
+/* header */
+--header-color: var(--dark-lightest);
+--header-background: var(--dark-lightest);
+--header-border: var(--dark-lightest);
+--header-boxshadow: var(--dark-lightest);
+--header-textshadow: var(--dark-lightest);
+/* header-nav */
+--header-nav-color: var(--dark-lightest);
+--header-nav-background: var(--dark-lightest);
+--header-nav-border: var(--dark-lightest);
+--header-nav-boxshadow: var(--dark-lightest);
+--header-nav-textshadow: var(--dark-lightest);
+/* header-navitem */
+--header-navitem-color: var(--dark-lightest);
+--header-navitem-background: var(--dark-lightest);
+--header-navitem-border: var(--dark-lightest);
+--header-navitem-boxshadow: var(--dark-lightest);
+--header-navitem-textshadow: var(--dark-lightest);
+/* header-navitem-link */
+--header-navitem-link-color: var(--dark-lightest);
+--header-navitem-link-background: var(--dark-lightest);
+--header-navitem-link-border: var(--dark-lightest);
+--header-navitem-link-boxshadow: var(--dark-lightest);
+--header-navitem-link-textshadow: var(--dark-lightest);
+/* header-navitem-link-active */
+--header-navitem-link-active-color: var(--dark-lightest);
+--header-navitem-link-active-background: var(--dark-lightest);
+--header-navitem-link-active-border: var(--dark-lightest);
+--header-navitem-link-active-boxshadow: var(--dark-lightest);
+--header-navitem-link-active-textshadow: var(--dark-lightest);
+/* header-navitem-link-focus */
+--header-navitem-link-focus-color: var(--dark-lightest);
+--header-navitem-link-focus-background: var(--dark-lightest);
+--header-navitem-link-focus-border: var(--dark-lightest);
+--header-navitem-link-focus-boxshadow: var(--dark-lightest);
+--header-navitem-link-focus-textshadow: var(--dark-lightest);
+/* header-navitem-link-hover */
+--header-navitem-link-hover-color: var(--dark-lightest);
+--header-navitem-link-hover-background: var(--dark-lightest);
+--header-navitem-link-hover-border: var(--dark-lightest);
+--header-navitem-link-hover-boxshadow: var(--dark-lightest);
+--header-navitem-link-hover-textshadow: var(--dark-lightest);
+/* header-navitem-link-visited */
+--header-navitem-link-visited-color: var(--dark-lightest);
+--header-navitem-link-visited-background: var(--dark-lightest);
+--header-navitem-link-visited-border: var(--dark-lightest);
+--header-navitem-link-visited-boxshadow: var(--dark-lightest);
+--header-navitem-link-visited-textshadow: var(--dark-lightest);
+/* header-navitem-button */
+--header-navitem-button-color: var(--dark-lightest);
+--header-navitem-button-background: var(--dark-lightest);
+--header-navitem-button-border: var(--dark-lightest);
+--header-navitem-button-boxshadow: var(--dark-lightest);
+--header-navitem-button-textshadow: var(--dark-lightest);
+/* header-navitem-button-active */
+--header-navitem-button-active-color: var(--dark-lightest);
+--header-navitem-button-active-background: var(--dark-lightest);
+--header-navitem-button-active-border: var(--dark-lightest);
+--header-navitem-button-active-boxshadow: var(--dark-lightest);
+--header-navitem-button-active-textshadow: var(--dark-lightest);
+/* header-navitem-button-focus */
+--header-navitem-button-focus-color: var(--dark-lightest);
+--header-navitem-button-focus-background: var(--dark-lightest);
+--header-navitem-button-focus-border: var(--dark-lightest);
+--header-navitem-button-focus-boxshadow: var(--dark-lightest);
+--header-navitem-button-focus-textshadow: var(--dark-lightest);
+/* header-navitem-button-hover */
+--header-navitem-button-hover-color: var(--dark-lightest);
+--header-navitem-button-hover-background: var(--dark-lightest);
+--header-navitem-button-hover-border: var(--dark-lightest);
+--header-navitem-button-hover-boxshadow: var(--dark-lightest);
+--header-navitem-button-hover-textshadow: var(--dark-lightest);
+/* header-navitem-button-visited */
+--header-navitem-button-visited-color: var(--dark-lightest);
+--header-navitem-button-visited-background: var(--dark-lightest);
+--header-navitem-button-visited-border: var(--dark-lightest);
+--header-navitem-button-visited-boxshadow: var(--dark-lightest);
+--header-navitem-button-visited-textshadow: var(--dark-lightest);
+/* main */
+--main-color: var(--dark-lightest);
+--main-background: var(--dark-lightest);
+--main-border: var(--dark-lightest);
+--main-boxshadow: var(--dark-lightest);
+--main-textshadow: var(--dark-lightest);
+/* form */
+--form-color: var(--dark-lightest);
+--form-background: var(--dark-lightest);
+--form-border: var(--dark-lightest);
+--form-boxshadow: var(--dark-lightest);
+--form-textshadow: var(--dark-lightest);
+/* form-heading */
+--form-heading-color: var(--dark-lightest);
+--form-heading-background: var(--dark-lightest);
+--form-heading-border: var(--dark-lightest);
+--form-heading-boxshadow: var(--dark-lightest);
+--form-heading-textshadow: var(--dark-lightest);
+/* form-body */
+--form-body-color: var(--dark-lightest);
+--form-body-background: var(--dark-lightest);
+--form-body-border: var(--dark-lightest);
+--form-body-boxshadow: var(--dark-lightest);
+--form-body-textshadow: var(--dark-lightest);
+/* form-button */
+--form-button-color: var(--dark-lightest);
+--form-button-background: var(--dark-lightest);
+--form-button-border: var(--dark-lightest);
+--form-button-boxshadow: var(--dark-lightest);
+--form-button-textshadow: var(--dark-lightest);
+/* form-link */
+--form-link-color: var(--dark-lightest);
+--form-link-background: var(--dark-lightest);
+--form-link-border: var(--dark-lightest);
+--form-link-boxshadow: var(--dark-lightest);
+--form-link-textshadow: var(--dark-lightest);
+/* form-input */
+--form-input-color: var(--dark-lightest);
+--form-input-background: var(--dark-lightest);
+--form-input-border: var(--dark-lightest);
+--form-input-boxshadow: var(--dark-lightest);
+--form-input-textshadow: var(--dark-lightest);
+/* modal */
+--modal-color: var(--dark-lightest);
+--modal-color-background: var(--dark-lightest);
+--modal-color-border: var(--dark-lightest);
+--modal-color-boxshadow: var(--dark-lightest);
+--modal-color-textshadow: var(--dark-lightest);
+/* modal-heading */
+--modal-heading-color: var(--dark-lightest);
+--modal-heading-background: var(--dark-lightest);
+--modal-heading-border: var(--dark-lightest);
+--modal-heading-boxshadow: var(--dark-lightest);
+--modal-heading-textshadow: var(--dark-lightest);
+/* modal-body */
+--modal-body-color: var(--dark-lightest);
+--modal-body-background: var(--dark-lightest);
+--modal-body-border: var(--dark-lightest);
+--modal-body-boxshadow: var(--dark-lightest);
+--modal-body-textshadow: var(--dark-lightest);
+/* modal-button */
+--modal-button-color: var(--dark-lightest);
+--modal-button-background: var(--dark-lightest);
+--modal-button-border: var(--dark-lightest);
+--modal-button-boxshadow: var(--dark-lightest);
+--modal-button-textshadow: var(--dark-lightest);
+/* modal-link */
+--modal-link-color: var(--dark-lightest);
+--modal-link-background: var(--dark-lightest);
+--modal-link-border: var(--dark-lightest);
+--modal-link-boxshadow: var(--dark-lightest);
+--modal-link-textshadow: var(--dark-lightest);
+/* modal-input */
+--modal-input-color: var(--dark-lightest);
+--modal-input-background: var(--dark-lightest);
+--modal-input-border: var(--dark-lightest);
+--modal-input-boxshadow: var(--dark-lightest);
+--modal-input-textshadow: var(--dark-lightest);
+/* section (Create one style for each different section) */
+--section-color: var(--dark-lightest);
+--section-background: var(--dark-lightest);
+--section-border: var(--dark-lightest);
+--section-boxshadow: var(--dark-lightest);
+--section-textshadow: var(--dark-lightest);
+/* card (and stuff like nth card, or odd/even card, or "Primary card, Secondary card, etc") */
+--card-color: var(--dark-lightest);
+--card-background: var(--dark-lightest);
+--card-border: var(--dark-lightest);
+--card-boxshadow: var(--dark-lightest);
+--card-textshadow: var(--dark-lightest);
+/* card-heading */
+--card-heading-color: var(--dark-lightest);
+--card-heading-background: var(--dark-lightest);
+--card-heading-border: var(--dark-lightest);
+--card-heading-boxshadow: var(--dark-lightest);
+--card-heading-textshadow: var(--dark-lightest);
+/* card-link */
+--card-link-color: var(--dark-lightest);
+--card-link-background: var(--dark-lightest);
+--card-link-border: var(--dark-lightest);
+--card-link-boxshadow: var(--dark-lightest);
+--card-link-textshadow: var(--dark-lightest);
+/* card-link-active */
+--card-link-active-color: var(--dark-lightest);
+--card-link-active-background: var(--dark-lightest);
+--card-link-active-border: var(--dark-lightest);
+--card-link-active-boxshadow: var(--dark-lightest);
+--card-link-active-textshadow: var(--dark-lightest);
+/* card-link-focus */
+--card-link-focus-color: var(--dark-lightest);
+--card-link-focus-background: var(--dark-lightest);
+--card-link-focus-border: var(--dark-lightest);
+--card-link-focus-boxshadow: var(--dark-lightest);
+--card-link-focus-textshadow: var(--dark-lightest);
+/* card-link-hover */
+--card-link-hover-color: var(--dark-lightest);
+--card-link-hover-background: var(--dark-lightest);
+--card-link-hover-border: var(--dark-lightest);
+--card-link-hover-boxshadow: var(--dark-lightest);
+--card-link-hover-textshadow: var(--dark-lightest);
+/* card-link-visited */
+--card-link-visited-color: var(--dark-lightest);
+--card-link-visited-background: var(--dark-lightest);
+--card-link-visited-border: var(--dark-lightest);
+--card-link-visited-boxshadow: var(--dark-lightest);
+--card-link-visited-textshadow: var(--dark-lightest);
+/* footer */
+--footer-color: var(--dark-lightest);
+--footer-background: var(--dark-lightest);
+--footer-border: var(--dark-lightest);
+--footer-boxshadow: var(--dark-lightest);
+--footer-textshadow: var(--dark-lightest);
+/* footer-nav (or footer-socials, or both.) */
+--footer-nav-color: var(--dark-lightest);
+--footer-nav-background: var(--dark-lightest);
+--footer-nav-border: var(--dark-lightest);
+--footer-nav-boxshadow: var(--dark-lightest);
+--footer-nav-textshadow: var(--dark-lightest);
+/* footer-navitem-link */
+--footer-navitem-link-color: var(--dark-lightest);
+--footer-navitem-link-background: var(--dark-lightest);
+--footer-navitem-link-border: var(--dark-lightest);
+--footer-navitem-link-boxshadow: var(--dark-lightest);
+--footer-navitem-link-textshadow: var(--dark-lightest);
+/* footer-navitem-link-active */
+--footer-navitem-link-active-color: var(--dark-lightest);
+--footer-navitem-link-active-background: var(--dark-lightest);
+--footer-navitem-link-active-border: var(--dark-lightest);
+--footer-navitem-link-active-boxshadow: var(--dark-lightest);
+--footer-navitem-link-active-textshadow: var(--dark-lightest);
+/* footer-navitem-link-focus */
+--footer-navitem-link-focus-color: var(--dark-lightest);
+--footer-navitem-link-focus-background: var(--dark-lightest);
+--footer-navitem-link-focus-border: var(--dark-lightest);
+--footer-navitem-link-focus-boxshadow: var(--dark-lightest);
+--footer-navitem-link-focus-textshadow: var(--dark-lightest);
+/* footer-navitem-link-hover */
+--footer-navitem-link-hover-color: var(--dark-lightest);
+--footer-navitem-link-hover-background: var(--dark-lightest);
+--footer-navitem-link-hover-border: var(--dark-lightest);
+--footer-navitem-link-hover-boxshadow: var(--dark-lightest);
+--footer-navitem-link-hover-textshadow: var(--dark-lightest);
+/* footer-navitem-link-visited */
+--footer-navitem-link-visited-color: var(--dark-lightest);
+--footer-navitem-link-visited-background: var(--dark-lightest);
+--footer-navitem-link-visited-border: var(--dark-lightest);
+--footer-navitem-link-visited-boxshadow: var(--dark-lightest);
+--footer-navitem-link-visited-textshadow: var(--dark-lightest);
+/* footer-copyright */
+--footer-copyright-color: var(--dark-lightest);
+--footer-copyright-background: var(--dark-lightest);
+--footer-copyright-border: var(--dark-lightest);
+--footer-copyright-boxshadow: var(--dark-lightest);
+--footer-copyright-textshadow: var(--dark-lightest);
+}
