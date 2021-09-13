@@ -164,11 +164,18 @@
 --form-link-boxshadow: var(--dark-lightest);
 --form-link-textshadow: var(--dark-lightest);
 /* form-input */
---form-input-color: var(--dark-lightest);
---form-input-background: var(--dark-lightest);
---form-input-border: var(--dark-lightest);
---form-input-boxshadow: var(--dark-lightest);
---form-input-textshadow: var(--dark-lightest);
+
+/* form-input-focus */
+--form-input-focus-color: var(--black);
+--form-input-focus-background: var(--white);
+--form-input-focus-border: var(--accent-dark);
+--form-input-focus-boxshadow: var(--accent-almost-white);
+
+/* form-input-focus-visible */
+--form-input-focus-visible-color: var(--black);
+--form-input-focus-visible-background: var(--white);
+--form-input-focus-visible-border: var(--success-darkest);
+
 /* modal */
 --modal-color: var(--dark-lightest);
 --modal-color-background: var(--dark-lightest);
