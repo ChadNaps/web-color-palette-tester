@@ -49,11 +49,26 @@
 --header-navitem-link-hover-boxshadow: var(--dark-lightest);
 --header-navitem-link-hover-textshadow: var(--dark-lightest);
 /* header-navitem-link-visited */
---header-navitem-link-visited-color: var(--dark-lightest);
---header-navitem-link-visited-background: var(--dark-lightest);
---header-navitem-link-visited-border: var(--dark-lightest);
---header-navitem-link-visited-boxshadow: var(--dark-lightest);
---header-navitem-link-visited-textshadow: var(--dark-lightest);
+/* header-nav-dropdown */
+--header-nav-dropdown-navitem-color: var(--black);
+--header-nav-dropdown-navitem-background: var(--white);
+
+/* header-nav-dropdown-link-active */
+--header-nav-dropdown-link-active-color: var(--black);
+--header-nav-dropdown-link-active-background: var(--white);
+
+/* header-nav-dropdown-link-focus */
+--header-nav-dropdown-link-focus-color: var(--black);
+--header-nav-dropdown-link-focus-background: var(--white);
+--header-nav-dropdown-link-focus-border: var(--black);
+
+/* header-nav-dropdown-link-hover */
+--header-nav-dropdown-link-hover-color: var(--black);
+--header-nav-dropdown-link-hover-background: var(--grey-almost-white);
+
+/* header-nav-dropdown-link-visited */
+/* N/A - No stylings */
+
 /* header-navitem-button */
 --header-navitem-button-color: var(--dark-lightest);
 --header-navitem-button-background: var(--dark-lightest);
