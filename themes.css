@@ -19,22 +19,23 @@
     --primary-almost-white: #458EA2;
 
     /*Secondary:*/
-    --accent-almost-black: #A92A06;
-    --accent-darkest: #BA2E07;
-    --accent-dark: #C63E19;
-    --accent-accent: #D14E2A;
-    --accent-light: #DD5E3C;
-    --accent-lightest: #E86E4D;
-    --accent-almost-white: #EA7B5D;
+    
+    --accent-almost-black: #7A0019;
+    --accent-darkest: #86001B;
+    --accent-dark: #93001E;
+    --accent-accent: #A20021;
+    --accent-light: #A80A23;
+    --accent-lightest: #AD1425;
+    --accent-almost-white: #B42939;
 
 
-    --alert-almost-black: #7A0019;
-    --alert-darkest: #86001B;
-    --alert-dark: #93001E;
-    --alert-alert: #A20021;
-    --alert-light: #A80A23;
-    --alert-lightest: #AD1425;
-    --alert-almost-white: #B42939;
+    --alert-almost-black: #A92A06;
+    --alert-darkest: #BA2E07;
+    --alert-dark: #C63E19;
+    --alert-alert: #D14E2A;
+    --alert-light: #DD5E3C;
+    --alert-lightest: #E86E4D;
+    --alert-almost-white: #EA7B5D;
 
 
     --warn-almost-black: #CDA811;
