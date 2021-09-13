@@ -7,48 +7,38 @@
 --body-boxshadow: var(--grey-darkest);
 
 /* header */
---header-color: var(--dark-lightest);
---header-background: var(--dark-lightest);
---header-border: var(--dark-lightest);
---header-boxshadow: var(--dark-lightest);
---header-textshadow: var(--dark-lightest);
+--header-color: var(--white);
+--header-background: var(--grey-darkest);
+
 /* header-nav */
---header-nav-color: var(--dark-lightest);
---header-nav-background: var(--dark-lightest);
---header-nav-border: var(--dark-lightest);
---header-nav-boxshadow: var(--dark-lightest);
---header-nav-textshadow: var(--dark-lightest);
+--header-nav-color: var(--white);
+--header-nav-background: var(--grey-darkest);
+
 /* header-navitem */
---header-navitem-color: var(--dark-lightest);
---header-navitem-background: var(--dark-lightest);
---header-navitem-border: var(--dark-lightest);
---header-navitem-boxshadow: var(--dark-lightest);
---header-navitem-textshadow: var(--dark-lightest);
+--header-navitem-color: var(--white);
+--header-navitem-background: var(--grey-darkest);
+
 /* header-navitem-link */
---header-navitem-link-color: var(--dark-lightest);
---header-navitem-link-background: var(--dark-lightest);
---header-navitem-link-border: var(--dark-lightest);
---header-navitem-link-boxshadow: var(--dark-lightest);
---header-navitem-link-textshadow: var(--dark-lightest);
+--header-navitem-link-color: var(--white);
+--header-navitem-link-background: var(--grey-darkest);
+
 /* header-navitem-link-active */
---header-navitem-link-active-color: var(--dark-lightest);
---header-navitem-link-active-background: var(--dark-lightest);
---header-navitem-link-active-border: var(--dark-lightest);
---header-navitem-link-active-boxshadow: var(--dark-lightest);
---header-navitem-link-active-textshadow: var(--dark-lightest);
+--header-navitem-link-active-color: var(--white);
+--header-navitem-link-active-background: var(--grey-darkest);
+--header-navitem-link-focus-border: var(--white); /* Dotted */
+
 /* header-navitem-link-focus */
---header-navitem-link-focus-color: var(--dark-lightest);
---header-navitem-link-focus-background: var(--dark-lightest);
---header-navitem-link-focus-border: var(--dark-lightest);
---header-navitem-link-focus-boxshadow: var(--dark-lightest);
---header-navitem-link-focus-textshadow: var(--dark-lightest);
+--header-navitem-link-focus-color: var(--white);
+--header-navitem-link-focus-background: var(--grey-darkest);
+--header-navitem-link-focus-border: var(--white); /* When it's brought into focus via tab */
+
 /* header-navitem-link-hover */
---header-navitem-link-hover-color: var(--dark-lightest);
---header-navitem-link-hover-background: var(--dark-lightest);
---header-navitem-link-hover-border: var(--dark-lightest);
---header-navitem-link-hover-boxshadow: var(--dark-lightest);
---header-navitem-link-hover-textshadow: var(--dark-lightest);
+--header-navitem-link-hover-color: var(--accent-accent);
+--header-navitem-link-hover-background: var(--grey-darkest);
+
 /* header-navitem-link-visited */
+/* N/A - No stylings */
+
 /* header-nav-dropdown */
 --header-nav-dropdown-navitem-color: var(--black);
 --header-nav-dropdown-navitem-background: var(--white);
@@ -70,35 +60,26 @@
 /* N/A - No stylings */
 
 /* header-navitem-button */
---header-navitem-button-color: var(--dark-lightest);
---header-navitem-button-background: var(--dark-lightest);
---header-navitem-button-border: var(--dark-lightest);
---header-navitem-button-boxshadow: var(--dark-lightest);
---header-navitem-button-textshadow: var(--dark-lightest);
+--header-navitem-button-color: var(--grey-grey);
+--header-navitem-button-background: var(--grey-darkest);
+--header-navitem-button-border: var(--white);
+
 /* header-navitem-button-active */
---header-navitem-button-active-color: var(--dark-lightest);
---header-navitem-button-active-background: var(--dark-lightest);
---header-navitem-button-active-border: var(--dark-lightest);
---header-navitem-button-active-boxshadow: var(--dark-lightest);
---header-navitem-button-active-textshadow: var(--dark-lightest);
+/* N/A - No stylings */
+
 /* header-navitem-button-focus */
---header-navitem-button-focus-color: var(--dark-lightest);
---header-navitem-button-focus-background: var(--dark-lightest);
---header-navitem-button-focus-border: var(--dark-lightest);
---header-navitem-button-focus-boxshadow: var(--dark-lightest);
---header-navitem-button-focus-textshadow: var(--dark-lightest);
+--header-navitem-button-focus-color: var(--grey-grey);
+--header-navitem-button-focus-background: var(--white);
+--header-navitem-button-focus-border: var(--white);
+
 /* header-navitem-button-hover */
---header-navitem-button-hover-color: var(--dark-lightest);
---header-navitem-button-hover-background: var(--dark-lightest);
---header-navitem-button-hover-border: var(--dark-lightest);
---header-navitem-button-hover-boxshadow: var(--dark-lightest);
---header-navitem-button-hover-textshadow: var(--dark-lightest);
+--header-navitem-button-hover-color: var(--grey-grey);
+--header-navitem-button-hover-background: var(--white);
+--header-navitem-button-hover-border: var(--white);
+
 /* header-navitem-button-visited */
---header-navitem-button-visited-color: var(--dark-lightest);
---header-navitem-button-visited-background: var(--dark-lightest);
---header-navitem-button-visited-border: var(--dark-lightest);
---header-navitem-button-visited-boxshadow: var(--dark-lightest);
---header-navitem-button-visited-textshadow: var(--dark-lightest);
+/* N/A - No stylings */
+
 /* main */
 --main-color: var(--black);
 --main-background: var(--white);
