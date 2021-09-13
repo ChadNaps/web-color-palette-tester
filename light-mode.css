@@ -113,24 +113,20 @@
 --table-border: var(--grey-lightest);
 
 /* form */
---form-color: var(--dark-lightest);
---form-background: var(--dark-lightest);
---form-border: var(--dark-lightest);
---form-boxshadow: var(--dark-lightest);
---form-textshadow: var(--dark-lightest);
+--form-color: var(--black);
+--form-background: var(--white);
+
 /* form-heading */
---form-heading-color: var(--dark-lightest);
---form-heading-background: var(--dark-lightest);
---form-heading-border: var(--dark-lightest);
---form-heading-boxshadow: var(--dark-lightest);
---form-heading-textshadow: var(--dark-lightest);
+--form-heading-color: var(--black);
+--form-heading-background: var(--white);
+
 /* form-body */
---form-body-color: var(--dark-lightest);
---form-body-background: var(--dark-lightest);
---form-body-border: var(--dark-lightest);
---form-body-boxshadow: var(--dark-lightest);
---form-body-textshadow: var(--dark-lightest);
+--form-body-color: var(--black);
+--form-body-background: var(--white);
+
 /* form-button */
+--form-button-color: var(--white);
+--form-button-background: var(--accent-accent);
 
 /* form-button-hover */
 --form-button-hover-color: var(--accent-lightest);
@@ -148,12 +144,12 @@
 --form-button-focus-visible-border: var(--success-darkest);
 
 /* form-link */
---form-link-color: var(--dark-lightest);
---form-link-background: var(--dark-lightest);
---form-link-border: var(--dark-lightest);
---form-link-boxshadow: var(--dark-lightest);
---form-link-textshadow: var(--dark-lightest);
+/* None provided */
+
 /* form-input */
+--form-input-color: var(--black);
+--form-input-background: var(--white);
+--form-input-border: var(--accent-dark);
 
 /* form-input-focus */
 --form-input-focus-color: var(--black);
