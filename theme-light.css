@@ -1,9 +1,10 @@
 .theme-light {
     /*Background */
-    --main-background-color-solid: var(--dark-lightest);
-    --main-background-color-grade1: var(--dark-lightest);
-    --main-background-color-grade2: var(--primary-dark);
-    --main-border-color: var(--grey-almost-black);
+    --main-background-color-solid1: var(--white);
+    --main-background-color-solid2: var(--grey-almost-white);
+    --main-background-color-solid3: var(--grey-dark);
+    --main-background-color-solid4: var(--black);
+    --main-border-color: var(--accent-accent);
     --header-background-color: var(--primary-primary);
     --header-border-color: var(--primary-dark);
 
