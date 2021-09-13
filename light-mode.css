@@ -1,11 +1,11 @@
 .theme-light {
 
 /* body */
---header-color: var(--dark-lightest);
---header-background: var(--dark-lightest);
---header-border: var(--dark-lightest);
---header-boxshadow: var(--dark-lightest);
---header-textshadow: var(--dark-lightest);
+--body-color: var(--black);
+--body-background: var(--white);
+--body-border: var(--accent-accent);
+--body-boxshadow: var(--grey-darkest);
+
 /* header */
 --header-color: var(--dark-lightest);
 --header-background: var(--dark-lightest);
