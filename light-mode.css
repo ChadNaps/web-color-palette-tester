@@ -100,6 +100,15 @@
 --header-navitem-button-visited-boxshadow: var(--dark-lightest);
 --header-navitem-button-visited-textshadow: var(--dark-lightest);
 /* main */
+--main-color: var(--black);
+--main-background: var(--white);
+--main-border: var(--grey-almost-white);
+--main-boxshadow: var(--accent-almost-white);
+
+/* secondary */
+--secondary-color: var(--white);
+--secondary-background: var(--grey-almost-black);
+--secondary-border: var(--accent-lightest);
 
 /* table */
 --table-color: var(--black);
