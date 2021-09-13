@@ -100,11 +100,28 @@
 --header-navitem-button-visited-boxshadow: var(--dark-lightest);
 --header-navitem-button-visited-textshadow: var(--dark-lightest);
 /* main */
---main-color: var(--dark-lightest);
---main-background: var(--dark-lightest);
---main-border: var(--dark-lightest);
---main-boxshadow: var(--dark-lightest);
---main-textshadow: var(--dark-lightest);
+
+/* table */
+--table-color: var(--black);
+--table-background: var(--white);
+--table-border: var(--grey-lightest);
+
+/* table-column-heading */
+--table-column-heading-color: var(--white);
+--table-column-heading-background: var(--grey-darkest);
+--table-column-heading-border: var(--grey-lightest);
+
+/* table-row-heading */
+--table-row-heading-color: var(--accent-accent);
+--table-row-heading-background: ; /* inherited */
+--table-row-heading-border: var(--grey-lightest);
+
+/* table-body */
+--table-color: var(--black);
+--table-background: var(--white);
+--table-background-secondary: var(--grey-almost-white);
+--table-border: var(--grey-lightest);
+
 /* form */
 --form-color: var(--dark-lightest);
 --form-background: var(--dark-lightest);
