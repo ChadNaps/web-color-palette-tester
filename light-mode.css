@@ -138,11 +138,6 @@
 --form-button-focus-background: var(--accent-accent);
 --form-button-focus-border: var(--grey-dark);
 
-/* form-button-focus-visible */
---form-button-focus-visible-color: var(--white);
---form-button-focus-visible-background: var(--accent-accent);
---form-button-focus-visible-border: var(--success-darkest);
-
 /* form-link */
 /* None provided */
 
