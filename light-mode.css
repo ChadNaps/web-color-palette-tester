@@ -200,15 +200,48 @@
 --section-boxshadow: var(--dark-lightest);
 --section-textshadow: var(--dark-lightest);
 /* card (and stuff like nth card, or odd/even card, or "Primary card, Secondary card, etc") */
-/* primary-card */
---primary-card-color: var(--black);
---primary-card-background: var(--white);
---primary-card-boxshadow: var(--accent-almost-white);
+/* card-primary */
+--card-primary-color: var(--black);
+--card-primary-background: var(--white);
+--card-primary-boxshadow: var(--accent-almost-white);
 
-/* primary-card-heading */
---primary-card-heading-color: var(--black);
---primary-card-heading-background: var(--white);
---primary-card-heading-boxshadow: var(--accent-almost-white);
+/* card-primary-heading */
+--card-primary-heading-color: var(--black);
+--card-primary-heading-background: var(--white);
+--card-primary-heading-boxshadow: var(--accent-almost-white);
+
+/* card-primary-link */
+--card-primary-link-color: var(--primary-lightest);
+
+/* card-primary-link-focus */
+--card-primary-link-focus-color: var(--primary-dark);
+--card-primary-link-focus-border: var(--primary-dark);
+
+/* card-primary-link-hover */
+--card-primary-link-hover-color: var(--primary-dark);
+
+/* card-primary-link-visited */
+--card-primary-link-visited-color: var(--primary-almost-white);
+
+/* card-secondary */
+--card-secondary-color: var(--white);
+--card-secondary-background: var(--grey-dark);
+
+/* card-secondary-heading */
+--card-secondary-heading-color: var(--white);
+--card-secondary-heading-background: var(--grey-dark);
+
+/* card-secondary-link */
+--card-secondary-link-color: var(--accent-accent);
+
+/* card-secondary-link-focus */
+--card-secondary-link-focus-color: var(--white);
+
+/* card-secondary-link-hover */
+--card-secondary-link-hover-color: var(--white);
+
+/* card-secondary-link-visited */
+--card-secondary-link-visited-color: var(--grey-almost-white);
 
 /* primary-card-link */
 --primary-card-link-color: var(--primary-lightest);
