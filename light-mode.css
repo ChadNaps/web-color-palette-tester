@@ -205,47 +205,49 @@
 --section-boxshadow: var(--dark-lightest);
 --section-textshadow: var(--dark-lightest);
 /* card (and stuff like nth card, or odd/even card, or "Primary card, Secondary card, etc") */
---card-color: var(--dark-lightest);
---card-background: var(--dark-lightest);
---card-border: var(--dark-lightest);
---card-boxshadow: var(--dark-lightest);
---card-textshadow: var(--dark-lightest);
-/* card-heading */
---card-heading-color: var(--dark-lightest);
---card-heading-background: var(--dark-lightest);
---card-heading-border: var(--dark-lightest);
---card-heading-boxshadow: var(--dark-lightest);
---card-heading-textshadow: var(--dark-lightest);
-/* card-link */
---card-link-color: var(--dark-lightest);
---card-link-background: var(--dark-lightest);
---card-link-border: var(--dark-lightest);
---card-link-boxshadow: var(--dark-lightest);
---card-link-textshadow: var(--dark-lightest);
-/* card-link-active */
---card-link-active-color: var(--dark-lightest);
---card-link-active-background: var(--dark-lightest);
---card-link-active-border: var(--dark-lightest);
---card-link-active-boxshadow: var(--dark-lightest);
---card-link-active-textshadow: var(--dark-lightest);
-/* card-link-focus */
---card-link-focus-color: var(--dark-lightest);
---card-link-focus-background: var(--dark-lightest);
---card-link-focus-border: var(--dark-lightest);
---card-link-focus-boxshadow: var(--dark-lightest);
---card-link-focus-textshadow: var(--dark-lightest);
-/* card-link-hover */
---card-link-hover-color: var(--dark-lightest);
---card-link-hover-background: var(--dark-lightest);
---card-link-hover-border: var(--dark-lightest);
---card-link-hover-boxshadow: var(--dark-lightest);
---card-link-hover-textshadow: var(--dark-lightest);
-/* card-link-visited */
---card-link-visited-color: var(--dark-lightest);
---card-link-visited-background: var(--dark-lightest);
---card-link-visited-border: var(--dark-lightest);
---card-link-visited-boxshadow: var(--dark-lightest);
---card-link-visited-textshadow: var(--dark-lightest);
+/* primary-card */
+--primary-card-color: var(--black);
+--primary-card-background: var(--white);
+--primary-card-boxshadow: var(--accent-almost-white);
+
+/* primary-card-heading */
+--primary-card-heading-color: var(--black);
+--primary-card-heading-background: var(--white);
+--primary-card-heading-boxshadow: var(--accent-almost-white);
+
+/* primary-card-link */
+--primary-card-link-color: var(--primary-lightest);
+
+/* primary-card-link-focus */
+--primary-card-link-focus-color: var(--primary-dark);
+--primary-card-link-focus-border: var(--primary-dark);
+
+/* primary-card-link-hover */
+--primary-card-link-hover-color: var(--primary-dark);
+
+/* primary-card-link-visited */
+--primary-card-link-visited-color: var(--primary-almost-white);
+
+/* secondary-card */
+--secondary-card-color: var(--white);
+--secondary-card-background: var(--grey-dark);
+
+/* secondary-card-heading */
+--secondary-card-heading-color: var(--white);
+--secondary-card-heading-background: var(--grey-dark);
+
+/* secondary-card-link */
+--secondary-card-link-color: var(--accent-accent);
+
+/* secondary-card-link-focus */
+--secondary-card-link-focus-color: var(--white);
+
+/* secondary-card-link-hover */
+--secondary-card-link-hover-color: var(--white);
+
+/* secondary-card-link-visited */
+--secondary-card-link-visited-color: var(--grey-almost-white);
+
 /* footer */
 --footer-color: var(--dark-lightest);
 --footer-background: var(--dark-lightest);
