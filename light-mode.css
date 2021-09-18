@@ -270,51 +270,24 @@
 --button-secondary-hover-background: var(--accent-accent);
 
 /* footer */
---footer-color: var(--dark-lightest);
---footer-background: var(--dark-lightest);
---footer-border: var(--dark-lightest);
---footer-boxshadow: var(--dark-lightest);
---footer-textshadow: var(--dark-lightest);
+--footer-color: var(--white);
+--footer-background: var(--grey-darkest);
+
 /* footer-nav (or footer-socials, or both.) */
---footer-nav-color: var(--dark-lightest);
---footer-nav-background: var(--dark-lightest);
---footer-nav-border: var(--dark-lightest);
---footer-nav-boxshadow: var(--dark-lightest);
---footer-nav-textshadow: var(--dark-lightest);
+--footer-nav-color: var(--white);
+--footer-nav-background: var(--grey-darkest);
+
 /* footer-navitem-link */
---footer-navitem-link-color: var(--dark-lightest);
---footer-navitem-link-background: var(--dark-lightest);
---footer-navitem-link-border: var(--dark-lightest);
---footer-navitem-link-boxshadow: var(--dark-lightest);
---footer-navitem-link-textshadow: var(--dark-lightest);
-/* footer-navitem-link-active */
---footer-navitem-link-active-color: var(--dark-lightest);
---footer-navitem-link-active-background: var(--dark-lightest);
---footer-navitem-link-active-border: var(--dark-lightest);
---footer-navitem-link-active-boxshadow: var(--dark-lightest);
---footer-navitem-link-active-textshadow: var(--dark-lightest);
+--footer-navitem-link-color: var(--white);
+--footer-navitem-link-background: var(--grey-darkest);
+
 /* footer-navitem-link-focus */
---footer-navitem-link-focus-color: var(--dark-lightest);
---footer-navitem-link-focus-background: var(--dark-lightest);
---footer-navitem-link-focus-border: var(--dark-lightest);
---footer-navitem-link-focus-boxshadow: var(--dark-lightest);
---footer-navitem-link-focus-textshadow: var(--dark-lightest);
+--footer-navitem-link-focus-border: var(--white);
+
 /* footer-navitem-link-hover */
---footer-navitem-link-hover-color: var(--dark-lightest);
---footer-navitem-link-hover-background: var(--dark-lightest);
---footer-navitem-link-hover-border: var(--dark-lightest);
---footer-navitem-link-hover-boxshadow: var(--dark-lightest);
---footer-navitem-link-hover-textshadow: var(--dark-lightest);
-/* footer-navitem-link-visited */
---footer-navitem-link-visited-color: var(--dark-lightest);
---footer-navitem-link-visited-background: var(--dark-lightest);
---footer-navitem-link-visited-border: var(--dark-lightest);
---footer-navitem-link-visited-boxshadow: var(--dark-lightest);
---footer-navitem-link-visited-textshadow: var(--dark-lightest);
+--footer-navitem-link-hover-color: var(--accent-accent);
+
 /* footer-copyright */
---footer-copyright-color: var(--dark-lightest);
---footer-copyright-background: var(--dark-lightest);
---footer-copyright-border: var(--dark-lightest);
---footer-copyright-boxshadow: var(--dark-lightest);
---footer-copyright-textshadow: var(--dark-lightest);
+--footer-copyright-color: var(--white);
+--footer-copyright-background: var(--grey-darkest);
 }
