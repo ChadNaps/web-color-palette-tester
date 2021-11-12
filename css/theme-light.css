@@ -1,8 +1,9 @@
 .theme-light {
     /*Background */
-    --main-background-color-solid: var(--dark-lightest);
+    --main-background-color-solid: var(--primary-almost-white);
     --main-background-color-grade1: var(--dark-lightest);
     --main-background-color-grade2: var(--primary-dark);
+    
     --main-border-color: var(--grey-almost-black);
     --header-background-color: var(--primary-primary);
     --header-border-color: var(--primary-dark);
@@ -11,9 +12,10 @@
     --accented-border-color: var(--accent-light);
 
     /*Text */
-    --main-text-color: var(--grey-almost-white);
-    --muted-text-color: var(--grey-lightest);
+    --main-text-color: var(--white);
+    --muted-text-color: var(--grey-almost-white);
 
+    --inverse-background-color: var(--grey-almost-white);
     --inverse-text-color: var(--grey-almost-black);
 
     /*Buttons */
