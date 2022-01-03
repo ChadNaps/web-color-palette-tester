@@ -3,8 +3,8 @@
     --main-background-color-solid: var(--primary-almost-black);
     --main-background-color-grade1: var(--primary-darkest);
     --main-background-color-grade2: var(--primary-dark);
-    --backdrop-background-grade1: var(--primary-light);
-    --backdrop-background-grade2: var(--accent-dark);
+    --backdrop-background-grade1: var(--primary-dark);
+    --backdrop-background-grade2: var(--accent-almost-black);
     --main-border-color: var(--grey-almost-white);
 
     --header-text-color: var(--grey-almost-white);
