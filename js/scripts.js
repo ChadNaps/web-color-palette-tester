@@ -88,3 +88,10 @@ function open_link_target(section_el, orig_height, chevron)
 }
 const nav_toggle = document.getElementById("nav-toggle");
 nav_toggle.addEventListener('click', function () {document.getElementById("nav").classList.toggle("nav-collapse");});
+
+function toggleModal() {
+    let backsplash = document.getElementById("modal-backsplash");
+    let modal = document.getElementById("modal");
+    backsplash.classList.toggle("hidden");
+    modal.classList.toggle("hidden");
+}

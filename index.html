@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="theme-light">
+<html lang="en" class="theme-light theme_1">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/themes.css">
     <link rel="stylesheet" href="css/theme-light.css">
+    <link rel="stylesheet" href="css/theme-dark.css">
     <link rel="stylesheet" href="css/fonts.css">
     <title>Web Color Palette Tester</title>
 </head>
@@ -18,9 +19,9 @@
 <div id="nav" class="nav">
     <nav class="nav-nav">
         <ul class="nav-list">
-            <li class="nav-item"><a id="nav-link-first" href="first-section" class="nav-link">First Section</a></li>
+            <li class="nav-item"><a id="nav-link-first" href="#first-section" class="nav-link">First Section</a></li>
             <li class="nav-item"><a id="nav-link-second" href="#second-section" class="nav-link">Second Section</a></li>
-            <li class="nav-item"><a id="nav-link-third" href="third-section" class="nav-link">Third Section</a></li>
+            <li class="nav-item"><a id="nav-link-third" href="#third-section" class="nav-link">Third Section</a></li>
             <li class="nav-item"><a id="nav-link-fourth" href="#fourth-section" class="nav-link">Fourth Section</a></li>
         </ul>
     </nav>
@@ -58,11 +59,22 @@
             <div class="card">
                 <h3 class="card-title">Form</h3>
                 <form>
-                    <button class="button" type="button">Button</button>
-                    <button class="button button-primary">Button</button>
-                    <button class="button button-alert">Button</button>
-                    <button class="button button-disabled">Button</button>
-                    <button>button</button>
+                    <div class="form-section-row">
+                        <label class="button-label" for="btn-plain">Plain</label>
+                        <button id="btn-plain" class="button" type="button">Button</button>
+                        <label class="button-label" for="btn-primary">Primary</label>
+                        <button id="btn-primary" class="button button-primary">Button</button>
+                    </div>
+                    <div class="form-section-row">
+                        <label class="button-label" class="button-label" for="btn-alert">Alert</label>
+                        <button id="btn-alert" class="button button-alert">Button</button>
+                        <label class="button-label" for="btn-disabled">Disabled</label>
+                        <button id="btn-disabled" class="button button-disabled">Button</button>
+                    </div>
+                    <div class="form-section-col">
+                        <label class="button-label" for="text-input">Text Input</label>
+                        <input id="text-input" class="form-text-input" type="text" placeholder="Input">
+                    </div>
                 </form>
             </div>
         </div>
@@ -76,7 +88,7 @@
                 <h3 class="card-title">Card 1</h3>
                 <p class="card-body">I intend to put something funny here, but I'm not thinking of anything...</p>
             </div>
-            <div class="card">
+            <div class="card card-dark">
                 <h3 class="card-title">Card 2</h3>
                 <p  class="card-body">There's a way to inject lorem ipsum with javascript, but I'm lazy.</p>
             </div>
@@ -84,12 +96,20 @@
     </section>
     <section class="section-even" id="fourth-section">
         <div class="section-container margin-on">
-            <h2 class="section-title">Fourth Section
+            <h2 class="section-title">Trigger the rest of the options
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
             </h2>
             <div class="card">
                 <h3 class="card-title">Card 1</h3>
                 <p class="card-body">I intend to put something funny here, but I'm not thinking of anything...</p>
+                <div class="form-section-row">
+                    <button class="button button-primary" onclick="toggleTheme()">Toggle Theme</button>
+                    <button class="button button-primary" onclick="toggleModal()">Toggle Modal</button>
+                </div>
+                <div class="form-section-row">
+                    <select id="color-selector" class="button form-text-input"></select>
+                    <button class="button button-alert" onclick="setColor()">Change Color</button>
+                </div>
             </div>
             <div class="card">
                 <h3 class="card-title">Card 2</h3>
@@ -111,7 +131,10 @@
         </nav>
     </nav>
 </footer>
-</div>
+<div id="modal-backsplash" class="hidden">
+    <div id="modal" class="hidden">
+        <button class="button button-alert" onclick="toggleModal()">Close Modal</button>
+    </div>
 </div>
 <script src="js/scripts.js"></script>
 <script src="js/themes.js"></script>

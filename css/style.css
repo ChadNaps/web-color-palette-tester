@@ -67,14 +67,14 @@ a {
     flex-wrap: nowrap;
     list-style: none;
     margin: 1rem;
-    color: var(--link-color);
+    color: var(--header-text-color);
     font: var(--nav-font);
     transform: scale(1) translateY(0.1rem);
     transition: 0.2s ease-in;
 }
 
 .nav-link:hover, .nav-link:active, .nav-link:focus {
-    color: var(--hover-item-background-color);
+    color: var(--hover-item-text-color);
     text-decoration: underline;
     transform: scale(1.1) translateY(-0.1rem);
     transition: 0.2s ease;
@@ -103,25 +103,25 @@ a {
 .header-title-main {
     margin: 0.8rem 0;
     font: var(--header-title);
-    color: var(--main-text-color)
+    color: var(--header-text-color)
 }
 
 .header-title-sub {
     margin: 0.8rem 0;
     font: var(--header-sub);
-    color: var(--main-text-color)
+    color: var(--header-text-color)
 }
 
 .header-paragraph {
     font: var(--header-paragraph);
-    color: var(--muted-text-color);
+    color: var(--header-text-color);
 }
 
 main {
     font: var(--body-font);
     height: 100%;
     width: 100vw;
-    background-image: linear-gradient(to right top, var(--primary-light), var(--accent-dark));
+    background-image: linear-gradient(to right top, var(--backdrop-background-grade1), var(--backdrop-background-grade2));
     -webkit-clip-path: polygon(0 0, 100% 25vh, 100% 100%, 0 100%);
     clip-path: polygon(0 0, 100% 25vh, 100% 100%, 0 100%);
     z-index: 1;
@@ -154,12 +154,10 @@ section {
     0% {
         transform: scaleY(1);
         transform-origin: 100% 0%;
-
     }
     100% {
         transform: scaleY(0);
         transform-origin: 100% 0%;
-
     }
 }
 
@@ -167,12 +165,10 @@ section {
     0% {
         transform: scaleY(0);
         transform-origin: 100% 0%;
-
     }
     100% {
         transform: scaleY(1);
         transform-origin: 100% 0%;
-
     }
 }
 /*applied to each card in the section*/
@@ -214,6 +210,10 @@ section {
     width: 100%;
 }
 
+h2.section-title {
+    color: var(--inverse-text-color);
+}
+
 .section-title > svg  {
     vertical-align: center;
     position: relative;
@@ -228,17 +228,17 @@ section {
 .section-title > svg:focus,
 .section-title .toggled
 {
-    transform: rotateZ(90deg);
+    transform: rotate(90deg);
     transition: 0.2s ease;
 }
 
 .card {
     padding: 5rem;
     border: 1px solid black;
-    background-color: white;
+    background-color: var(--card-background-color);
     box-shadow: black 2.5px 2px;
     flex-grow: 1;
-    color: var(--inverse-text-color);
+    color: var(--card-text-color);
     overflow: hidden;
 }
 
@@ -283,7 +283,20 @@ section {
 }
 
 .card-dark {
-    background-color: ;
+    background-color: var(--inverse-background-color);
+    color: var(--main-text-color);
+    box-shadow: var(--inverse-border-color) 2.5px 2px;
+}
+
+.form-section-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section-row {
+    display: flex;
+    flex-direction: row;
+    place-items: center;
 }
 
 .button {
@@ -293,6 +306,10 @@ section {
     margin: 2rem 1rem;
     padding: 1rem 2rem;
     border-radius: 4px;
+}
+
+.button:hover {
+    cursor: pointer;
 }
 
 .button-primary {
@@ -311,6 +328,24 @@ section {
     color: var(--button-disabled-text-color);
     background-color: var(--button-disabled-background-color);
     border: 1px solid var(--button-disabled-border-color);
+}
+
+.button-label {
+    font: var(--form-label);
+    color: var(--button-label-color);
+}
+
+input.form-text-input[type=text] {
+    color: var(--input-text-color)
+}
+
+input.form-text-input[type=text]::selection {
+    background-color: var(--input-selection-background-color);
+    color: var(--input-selection-text-color);
+}
+
+input.form-text-input[type=text]::spelling-error {
+    color: var(--input-spellcheck-color);
 }
 
 .footer {
@@ -424,3 +459,33 @@ and (max-width: 850px)
         width: 35px;
     }
 }
+
+#modal-backsplash {
+    display: block;
+    position: absolute;
+    z-index: 15;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--modal-backsplash-color);
+}
+
+#modal {
+    display: block;
+    position: sticky;
+    z-index: 12;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-10vw, -20rem);
+    height: 70vh;
+    width: 80vw;
+    background-color: var(--modal-background-color);
+    border: 1px solid var(--modal-border-color);
+    border-radius: 5px;
+}
+
+#modal.hidden, #modal-backsplash.hidden {
+    display: none;
+}
+
